@@ -1,0 +1,59 @@
+
+// LAYOUT
+// use this file for only structure of each area. 
+// --------------------------------------------------
+
+// Full Page
+//----------------
+
+body {
+	background: url(../images/campfire-bg.jpg) no-repeat center fixed;
+	background-size: cover;
+}
+
+
+// Header 
+//---------------------------------------------------
+
+.container.full-width {
+	background-color: transparent;
+}
+
+.header {
+	@include transition(all 0.3s linear);
+	background: transparent;
+}
+
+.header.smaller {
+	//@include transition(all 500ms ease-in-out);
+	//@include box-shadow (0 0 2px 0 #737373);
+	background-color: #f8f8f8;
+  	border-color: #e7e7e7;
+	height: 75px
+}
+
+
+.logo {
+	h1 {
+		@media #{$medium-up} { 
+			font-size: 4.5rem;
+		}
+	}
+}
+
+
+//Sidebar(s)
+//---------------------------------------------------
+
+// Main Content
+//---------------------------------------------------
+
+.container.main-content {
+	background: white;
+	margin-top: 30em;
+}
+
+
+// Footer
+//---------------------------------------------------
+
