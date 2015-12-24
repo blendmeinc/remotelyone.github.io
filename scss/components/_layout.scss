@@ -6,9 +6,12 @@
 // Full Page
 //----------------
 
+
 body {
-	background: url(../images/campfire-bg.jpg) no-repeat center fixed;
-	background-size: cover;
+	
+	background: url(/images/campfire-bg.jpg) no-repeat center fixed;
+	@include background-size(cover);
+	background-color: $black;
 }
 
 
@@ -25,8 +28,8 @@ body {
 }
 
 .header.smaller {
-	//@include transition(all 500ms ease-in-out);
-	//@include box-shadow (0 0 2px 0 #737373);
+	@include transition(all 500ms ease-in-out);
+	@include box-shadow (0 0 2px 0 #737373);
 	background-color: #f8f8f8;
   	border-color: #e7e7e7;
 	height: 75px
@@ -35,6 +38,8 @@ body {
 
 .logo {
 	h1 {
+		font-size: 2.5rem;
+
 		@media #{$medium-up} { 
 			font-size: 4.5rem;
 		}
@@ -49,8 +54,14 @@ body {
 //---------------------------------------------------
 
 .container.main-content {
-	background: white;
+	background: $black;
 	margin-top: 30em;
+}
+
+.middle .column {
+	@media #{$small-only} {
+		padding: 0px;
+	}
 }
 
 

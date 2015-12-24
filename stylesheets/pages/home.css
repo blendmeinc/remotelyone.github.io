@@ -1,0 +1,33 @@
+/* line 7, ../../scss/pages/home.scss */
+.perks li {
+  list-style: none;
+}
+/* line 11, ../../scss/pages/home.scss */
+.perks p {
+  background: rgba(2, 2, 2, 0.5);
+  font-size: 1.5em;
+  padding: 1em;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 16, ../../scss/pages/home.scss */
+  .perks.column {
+    padding-right: 2em;
+    padding-left: 0px;
+  }
+}
+
+/* line 26, ../../scss/pages/home.scss */
+.signup {
+  color: #ffae00;
+}
+
+/* line 33, ../../scss/pages/home.scss */
+.tagline p {
+  font-size: 1.5rem;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 33, ../../scss/pages/home.scss */
+  .tagline p {
+    font-size: 2.2rem;
+  }
+}

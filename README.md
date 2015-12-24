@@ -1,29 +1,29 @@
-# Foundation libsass template
+# Foundation Compass Template
 
-This is a template to start your own project that uses Grunt and libsass!
+The easiest way to get started with Foundation + Compass.
 
 ## Requirements
 
-You'll need to have the following items installed before continuing.
-
-  * [Node.js](http://nodejs.org): Use the installer provided on the NodeJS website.
-  * [Grunt](http://gruntjs.com/): Run `[sudo] npm install -g grunt-cli`
-  * [Bower](http://bower.io): Run `[sudo] npm install -g bower`
+  * Ruby 1.9+
+  * [Node.js](http://nodejs.org)
+  * [compass](http://compass-style.org/): `gem install compass`
+  * [bower](http://bower.io): `npm install bower -g`
 
 ## Quickstart
 
+  * [Download this starter compass project and unzip it](https://github.com/zurb/foundation-compass-template/archive/master.zip)
+  * Run `bower install` to install the latest version of Foundation
+  
+Then when you're working on your project, just run the following command:
+
 ```bash
-git clone git@github.com:zurb/foundation-libsass-template.git
-npm install && bower install
+bundle exec compass watch
 ```
 
-While you're working on your project, run:
+## Upgrading
 
-`grunt`
+If you'd like to upgrade to a newer version of Foundation down the road just run:
 
-And you're set!
-
-## Directory Structure
-
-  * `scss/_settings.scss`: Foundation configuration settings go in here
-  * `scss/app.scss`: Application styles go here
+```bash
+bower update
+```
