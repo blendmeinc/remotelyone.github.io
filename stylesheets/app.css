@@ -9277,35 +9277,66 @@ body {
   color: #f7f9f9 !important;
 }
 
-/* line 7, ../scss/pages/home.scss */
+/* line 7, ../scss/pages/_home.scss */
 .perks li {
   list-style: none;
 }
-/* line 11, ../scss/pages/home.scss */
+/* line 11, ../scss/pages/_home.scss */
 .perks p {
   background: rgba(2, 2, 2, 0.5);
   font-size: 1.5em;
   padding: 1em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 16, ../scss/pages/home.scss */
+  /* line 16, ../scss/pages/_home.scss */
   .perks.column {
     padding-right: 2em;
     padding-left: 0px;
   }
 }
+@media only screen and (min-width: 40.063em) {
+  /* line 24, ../scss/pages/_home.scss */
+  .perks.thanks.column {
+    padding: 0em 0em 0em 1em;
+  }
+}
 
-/* line 26, ../scss/pages/home.scss */
+/* line 32, ../scss/pages/_home.scss */
 .signup {
   color: #ffae00;
 }
 
-/* line 33, ../scss/pages/home.scss */
+/* line 36, ../scss/pages/_home.scss */
+.slack-icon {
+  width: 2em;
+}
+
+/* line 41, ../scss/pages/_home.scss */
+.thankyou {
+  background: rgba(2, 2, 2, 0.5);
+  color: #f7f9f9;
+  font-size: 1.5em;
+  padding: 1em;
+}
+/* line 47, ../scss/pages/_home.scss */
+.thankyou h1, .thankyou h3 {
+  color: #ffae00;
+}
+/* line 51, ../scss/pages/_home.scss */
+.thankyou li {
+  font-size: 1.3em;
+}
+/* line 55, ../scss/pages/_home.scss */
+.thankyou p {
+  font-size: 1.1em;
+}
+
+/* line 63, ../scss/pages/_home.scss */
 .tagline p {
   font-size: 1.5rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 33, ../scss/pages/home.scss */
+  /* line 63, ../scss/pages/_home.scss */
   .tagline p {
     font-size: 2.2rem;
   }
