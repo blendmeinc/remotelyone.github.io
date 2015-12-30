@@ -9304,39 +9304,42 @@ body {
 /* line 32, ../scss/pages/_home.scss */
 .signup {
   color: #ffae00;
+  background: rgba(2, 2, 2, 0.5);
+  font-size: 1.5em;
+  padding: 1em;
 }
 
-/* line 36, ../scss/pages/_home.scss */
+/* line 39, ../scss/pages/_home.scss */
 .slack-icon {
   width: 2em;
 }
 
-/* line 41, ../scss/pages/_home.scss */
+/* line 44, ../scss/pages/_home.scss */
 .thankyou {
   background: rgba(2, 2, 2, 0.5);
   color: #f7f9f9;
   font-size: 1.5em;
   padding: 1em;
 }
-/* line 47, ../scss/pages/_home.scss */
+/* line 50, ../scss/pages/_home.scss */
 .thankyou h1, .thankyou h3 {
   color: #ffae00;
 }
-/* line 51, ../scss/pages/_home.scss */
+/* line 54, ../scss/pages/_home.scss */
 .thankyou li {
   font-size: 1.3em;
 }
-/* line 55, ../scss/pages/_home.scss */
+/* line 58, ../scss/pages/_home.scss */
 .thankyou p {
   font-size: 1.1em;
 }
 
-/* line 63, ../scss/pages/_home.scss */
+/* line 66, ../scss/pages/_home.scss */
 .tagline p {
   font-size: 1.5rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 63, ../scss/pages/_home.scss */
+  /* line 66, ../scss/pages/_home.scss */
   .tagline p {
     font-size: 2.2rem;
   }
